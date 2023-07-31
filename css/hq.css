@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 255, 229);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+body {
+  background-color: #0d1827;
+
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+header {
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0);
+  padding: 0.1rem;
+  font-size: 22px;
+}
+
+.menu a:hover {
+  transform: scale(1.1);
+  transition: .2s all ease;
+  color: aqua;
+  cursor: pointer;
+}
+
+.menu ul {
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1.2rem;
+}
+
+.menu a {
+
+  color: aliceblue;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+
+ul li {
+  display: flex;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.menu2 li {
+  flex-direction: row;
+  text-decoration: none;
+  display: flex;
+  justify-content: right;
+  color: white;
+}
+
+main {
+
+  display: flex;
+  flex: 1 1 0%;
+  text-align: center;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1.8rem;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img {
+  align-items: center;
+  align-self: center;
+
+  width: 160px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.title {
+  margin-top: 3rem;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.title img {
+  border-radius: 20px;
+}
+
+.container {
+  margin: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4rem;
+  border-radius: 20px;
+  width: 80rem;
+  background-color: rgb(13, 30, 46);
+}
+
+.container h2 {
+  font-size: 3rem;
+}
+
+.link a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.HQ {
+  
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.HQ h2 {
+  text-align: center;
+  color: white;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.HQ img {
+  margin-bottom: 2rem;
+  width: 300px;
+  align-items: center;
+}
+
+.HQ a {
+
+  margin-bottom: 2rem;
+  gap: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+
+
+.fechar {
+  justify-content: center;
+  align-items: center; /* Adicione essa linha para centralizar verticalmente */
+  gap: 2rem;
+  display: flex;
+ 
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.Aparecer{
+  border: none ;
+}
+
+
+button {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(to right, #2819b3, #282462, #131346);
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 16px;
+}
+
+button svg {
+  margin-right: 3px;
+  transform: rotate(30deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button:hover svg, .pdf-Fechado:hover{
+  cursor: pointer;
+  transform: translateX(5px) rotate(90deg);
+}
+
+button:hover span, .pdf-Fechado:hover {
+  cursor: pointer;
+  transform: translateX(7px);
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 1rem;
+  flex-direction: row;
+  display: flex;
+  background-color: #091525;
+  min-width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 1.4rem;
+
+  color: #ffffff;
+}
+
+footer img {
+  height: 8rem;
+
+}
+
+footer .redes-socias {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: space-evenly;
+
+  font-size: 35px;
+
+  text-decoration: none;
+}
+
+
+
+.autor {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.desenvolvedor {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+
+.instagram {
+  color: rgb(245, 38, 73);
+
+}
+
+.github {
+  color: #ffffff;
+}
+
+.linkedin {
+  color: rgb(77, 143, 235);
+}
+
+
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+
+.API h2 {
+  text-align: left;
+}
+
+.API {
+  gap: 3rem;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.API a {
+
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.API img {
+  justify-content: space-between;
+  flex-direction: column;
+
+  margin-top: 2rem;
+  display: flex;
+  height: 60px;
+}
+
+.API p {
+  width: 100%;
+  align-items: center;
+  text-align: justify;
+  margin-top: 0.5rem;
+  font-size: 15px;
+}
+
+.instagram:hover,
+.github:hover,
+.linkedin:hover {
+  cursor: pointer;
+  color: aqua;
+}
+
+.noActive {
+  display: none;
+}

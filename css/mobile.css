@@ -1,0 +1,304 @@
+@media (max-width: 768px) {
+
+    .CAST{
+        margin-top: 1rem;
+        border-radius: 40px;
+        gap: 2rem;
+        padding: 2rem;
+        border: 1px solid red;
+        width: 100%;
+        padding: 2rem;
+        font-size: 0.5rem;
+        align-items: center;
+        background-color: #091525;
+        text-align: center;
+        display: flex;
+       
+      }
+      
+      .atores{
+        border: 1px solid yellow;
+        flex-direction: column;
+        width: 100%;
+       
+        margin-left: 0.3rem;
+        display: flex;
+        justify-content: space-between;
+        gap:0.5rem;
+      }
+
+
+/* EPISÓDIOS */
+
+.enquadramento{
+   
+    border-radius: 20px;
+    display: flex;
+    background-color: #07111f;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10rem;
+   margin: 2rem;
+   
+  
+    
+  }
+
+  .episodes{
+    flex-wrap: wrap;
+    border-radius: 20px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   color: #ffffff;
+   width: 40rem;
+   background-color: #060d17;
+  }
+
+  .wrap{
+   
+  
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .cartaz img{
+    
+      border-radius: 5px;
+   
+    width: 300px;
+    gap: 5rem;
+    justify-content: space-between;
+    
+    
+  }
+
+  .cartaz h1{
+    margin: 2rem;
+    font-size: 18px;
+  }
+
+
+
+#sinopse{
+   display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+   font-size: 0.8rem;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin-top: 1rem;
+   
+    text-align: justify;
+}
+
+#sinopse p{
+   
+    text-align: justify;
+  justify-content: center;
+  padding: 1rem;
+  width: 77%;
+  border: 1px solid pink;
+  font-weight: 100;
+}
+
+#sinopse a{
+  transition: .2 all ease forwards;
+}
+
+#sinopse h2{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#sinopse .videos{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+
+
+    #embedWarezCdn iframe {
+        width: 400px;
+        height: 400px;
+    }
+
+    header {
+        border: 3px solid yellow;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+       gap: 2rem;
+        background-color: rgb(0, 0, 0);
+        padding: 0.1rem;
+        font-size: 15px;
+      
+    }
+
+    .menu ul {
+      gap: 1rem;
+
+    }
+
+    .menu a {
+        width: 80%;
+        font-size: 15px;
+       
+        margin-left: 0.1rem;
+    }
+
+    ul li {
+      
+        width: 50%;
+        display: flex;
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .menu2 li {
+     
+        width: 80%;
+    }
+
+    .logo img {
+        padding: 0.1rem;
+        width: 80px;
+    }
+
+    .alinhar {
+      display: none
+    }
+
+
+    /*FOOTER*/
+
+    footer {
+        margin-top: 1rem;
+        flex-direction: column;
+        display: block;
+        background-color: #091525;
+        width: 100%;
+        gap: 2rem;
+        color: #ffffff;
+    }
+
+    .autor-img {
+        width: 340px;
+        height: 100px;
+    }
+
+    .autor-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    footer .redes-socias {
+        flex-direction: row;
+        gap: 2rem;
+        font-size: 28px;
+    }
+
+    .autor {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+
+    .desenvolvedor {
+        margin-top: 2rem;
+        display: flex;
+        width: 100%;
+
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+
+    .instagram {
+        color: rgb(245, 38, 73);
+
+    }
+
+    .github {
+        color: #ffffff;
+    }
+
+    .linkedin {
+        color: rgb(77, 143, 235);
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+
+    .API h2 {
+        font-size: 1.8rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .ajuste {
+        justify-content: center;
+        width: 340px;
+        height: 100px;
+
+        align-items: center;
+        margin-top: 1rem;
+
+        padding-bottom: 1rem;
+        display: flex;
+        height: 30px;
+    }
+
+    .ajuste img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .API {
+
+        gap: 3rem;
+        font-size: 0.4rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .API a {
+        width: 100%;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 0.2rem;
+    }
+
+    .API img {
+
+        height: 30px;
+    }
+
+    .conteudo-descricao p {
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        justify-content: center;
+        text-align: justify;
+        height: 100%;
+    }
+}
