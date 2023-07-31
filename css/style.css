@@ -119,7 +119,7 @@ ul li {
 }
 
 main {
-    /* position: relative; */
+  
     display: flex;
     flex: 1 1 0%;
     text-align: center;
@@ -199,6 +199,9 @@ main {
     font-size: 1.7rem;
   
   }
+
+
+
   .btn:hover{
     transform: scale(1.5);
     
@@ -209,10 +212,13 @@ main {
     
   }
   #passar{
+    background-color: blue;
     top: 50%;
     right: 10%;
   }
   .passador{
+    color: blue;
+   
     position: absolute;
     width: 1024px;
     display: flex;
@@ -220,6 +226,7 @@ main {
     margin-top: 27rem;
   }
   .passador div{
+    
     transition: all 0.5s;
     border: 2px solid #ffffff;
     
@@ -228,6 +235,11 @@ main {
     margin-right: 15px;
     cursor: pointer;
   
+  }
+
+  .passador:hover div:hover{
+    border-color: rgb(47, 157, 247);
+    background-color: rgb(47, 157, 247);
   }
 
  .passador .btn:last-child{
